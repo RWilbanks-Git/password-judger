@@ -20,7 +20,6 @@ def main():
         print("Invalid response. Please try again.\n\n")
         main()
 
-
 def checker(password, warning):
     length = len(password)
     if (length <= 8):
@@ -69,8 +68,6 @@ def restart():
     else:
         print("Invalid response. Please try again.\n\n")
         main()
-
-
 
 
 if __name__ == "__main__":
